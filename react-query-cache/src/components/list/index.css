@@ -1,0 +1,12 @@
+table {
+    width: 100%;
+}
+
+table > tbody > tr > td, table > thead > tr > th {
+    text-align: left;
+    padding: 0.33em;
+}
+
+div[role="navigation"] > :nth-child(2) {
+    margin: 1em;
+}
